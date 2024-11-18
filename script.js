@@ -1,8 +1,5 @@
 'use strict';
 
-
-
-
 document.querySelector('.btnSubmit').addEventListener('click', () => {
     let billAmount = +document.querySelector('#bill').value;
     let services = document.querySelector('#services').value;
@@ -27,5 +24,4 @@ document.querySelector('.btnSubmit').addEventListener('click', () => {
         }
         alert(`Perhead Bill is : ${perHead}`);
     }
-
 })
